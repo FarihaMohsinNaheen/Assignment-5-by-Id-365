@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'homepage.dart';
+import 'package:project_1/listview_page.dart';
+import 'package:project_1/profilepage.dart';
+//import 'homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: const HomePage(),
+      home: ListviewPage(),
     );
   }
 }
